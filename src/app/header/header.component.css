@@ -1,0 +1,15 @@
+.top1 {
+    background-color: black;
+    height: 60px;
+    border-bottom: 2px solid pink;
+}
+
+.nav-link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.nav-link:hover {
+    color: pink;
+}
