@@ -15,7 +15,7 @@
                 <td>{{student.name}}</td>
                 <td>{{student.email}}</td>
                 <td>
-                    <button class="btn btn-primary" [class.sd]="count % 2 === 1 && selectedStudent.id === student.id" (click)="selectStudent(student)">Show details</button>
+                    <button class="btn btn-primary" [class.sd]="count % 2 === 1 && selectedStudent.id === student.id" (click)="selectStudent(student)">Details</button>
                 </td>
                 <td>
                     <button class='btn btn-danger' (click)="onDelete(student.id)">Rusticate</button>
